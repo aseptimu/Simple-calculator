@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="calc">
+        <tr>
+            <td colspan="4"><input type="text" id="result" class="second-result"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="text" value="0" id="result" class="first-result">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="C" id="reset" class="operation"></td>
+            <td colspan="2"><input type="button" value="<-" id="backspace" class="operation"></td>
+        </tr>
+            <tr>
+            <td><input type="button" value="1"></td>
+            <td><input type="button" value="2"></td>
+            <td><input type="button" value="3"></td>
+            <td><input type="button" value="/" id="divide" class="operation"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4"></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6"></td>
+            <td><input type="button" value="*" id="multiply" class="operation"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7"></td>
+            <td><input type="button" value="8"></td>
+            <td><input type="button" value="9"></td>
+            <td><input type="button" value="-" id="minus" class="operation"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0"></td>
+            <td><input type="button" value="." id="dot" disabled></td> <!-- temporary unavailable -->
+            <td><input type="button" value="=" id="equals" class="result"></td>
+            <td><input type="button" value="+" id="plus" class="operation"></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

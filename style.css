@@ -1,0 +1,57 @@
+.calc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    border: 1px solid black;
+
+}
+
+input[type=button] {
+    padding: 20px 40px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.first-result {
+    font-size: 32px;
+}
+
+.second-result {
+    font-size: 20px;
+}
+
+#dot {
+    background-color: gray;
+}
+
+
+input[type=button].operation {
+    background-color: green;
+}
+
+input[type=button].result {
+    background-color: blue;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 20px; 
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    text-align: right;
+    pointer-events: none;
+}
+
+input[type=button]:hover:not(#dot) {
+    opacity: 0.7;
+}
+
+input[type=button]:active:not(#dot) {
+    opacity: 0.5;
+}
