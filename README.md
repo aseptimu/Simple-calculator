@@ -17,7 +17,7 @@ To perform calculations:
 The calculator has a minimalist design with a focus on usability. The color scheme is chosen for optimal contrast and readability.
 
 ## Versioning
-Current version: 1.0.0
+Current version: 2.0.0
 
 ## Future Enhancements
 - **Decimal Support**: Adding functionality to handle decimal calculations for more precise results.

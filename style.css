@@ -55,3 +55,21 @@ input[type=button]:hover:not(#dot) {
 input[type=button]:active:not(#dot) {
     opacity: 0.5;
 }
+
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+a.disabled {
+    pointer-events: none;
+    text-decoration: none;
+}
